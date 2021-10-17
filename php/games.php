@@ -32,13 +32,12 @@
 			<div class="content">
 				<div class="post">
 					<figure>
-						<img src="img/content-image/img1.jpeg" width="366" height="205">
+						<img src="img/img1" width="366" height="205">
 					</figure>
 					<div class="post-content">
 						<div class="post-title">
 							<p>
-								Самоирония на высоте: разработчики S.T.A.L.K.E.R. 2 пощдравили игроков
-								со Всемирным днём хлеба
+								
 							</p>
 						</div>
 					</div>
@@ -57,62 +56,60 @@
 				</div>
 				<div class="post">
 					<figure>
-						<img src="img/content-image/img3.jpeg" width="366" height="205">
+						<img src="img/img1" width="366" height="205">
 					</figure>
 					<div class="post-content">
 						<div class="post-title">
 							<p>
-								"Думаю, что это будет моя последняя картина": Майкл Кейн рассказал о возможном завершении своей кинокарьеры
+								
 							</p>
 						</div>
 					</div>
 				</div>
 				<div class="post">
 					<figure>
-						<img src="img/content-image/img4.webp" width="366" height="205">
+						<img src="img/img1" width="366" height="205">
 					</figure>
 					<div class="post-content">
 						<div class="post-title">
 							<p>
-								The Invincible представляет новый леденящий душу трейлер
+								
 							</p>
 						</div>
 					</div>
 				</div>
 				<div class="post">
 					<figure>
-						<img src="img/content-image/img5.jpeg" width="366" height="205">
+						<img src="img/img1" width="366" height="205">
 					</figure>
 					<div class="post-content">
 						<div class="post-title">
 							<p>
-								Китай предлагает добавить майнинг криптовалюты в черный список отраслей
+								
 							</p>
 						</div>
 					</div>
 				</div>
 				<div class="post">
 					<figure>
-						<img src="img/content-image/img6.jpeg" width="366" height="205">
+						<img src="img/img1" width="366" height="205">
 					</figure>
 					<div class="post-content">
 						<div class="post-title">
 							<p>
-								GTA Trilogy: The Definitive Edition скорей всего появится в Steam
+								
 							</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-
 	</main>
 
-	<footer>
-		<div class="bottom">
-			<p>Copyright © 2021</p>
-		</div>
-	</footer>
 
+
+	<footer>
+		<p>footer</p>
+	</footer>
 </body>
 </html>

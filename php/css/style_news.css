@@ -15,8 +15,6 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1.2em;
 	line-height: 1.5;
-	margin: 0;
-	padding: 0;
 	position: relative;
 }
 
@@ -101,50 +99,70 @@ main {
 	position: relative;
 	height: 900px;
 	margin: auto;
-	background-color: #E0FFFF;
+	background-color: #eeeeee;
 }
 
-.anouncement {
-	margin-bottom: 40px;
-	clear: left;
-}
-
-.content {
-	display:  flex;
+.post-list {
+	display: flex;
 	flex-wrap: wrap;
 	margin: 0 -6px;
 }
 
-.content .post {
-	margin-bottom: 12px;
-	flex-basis: calc(33.333% - 12px);
-	margin-left: 6px;
-	margin-right: 6px;
-	background-color: #fff;
-	padding: 0 0 12px 0;
+.post-container {
+	flex-basis: 100%;
+	display: block;
+	margin: 0;
+}
+
+.posts {
+	margin-bottom: 14px;
+	margin-left: 0;
+	margin-right: 0;
 	display: flex;
-	flex-direction: column;
-	min-width: 280px;
+	flex-direction: row;
+	min-width: auto;
+	padding: 10px;
+	position: relative;
+	font-size: 1.6rem;
 }
 
 .post {
-	position: relative;
-	font-size: 1.6rem;
-	box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+	margin-bottom: 14px;
+	margin-left: 0;
+	margin-right: 0;
+	background-color: #fff;
+	display: flex;
+	flex-direction: row;
+	min-width: auto;
+	padding: 10px;
+}
+
+.picture {
+	text-align: center;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.picture img {
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
 }
 
 .post-content {
+	flex-basis: 78%;
+	height: auto;
 	display: flex;
 	padding: 10px 20px 0;
 	flex-direction: column;
-	height: 100%;
 }
 
 .post-title {
-	font: bold 1.9rem/1.1 "Roboto Condensed", "Arial Narrow", Arial, sans-serif;
+	font:  bold 1.9rem/1.1, Arial, sans-serif;
 	margin: 8px 0 0 0;
-	color: #404040;
+	max-width: 85%;
 }
+
 
 /* FOOTER STYLE */
 
